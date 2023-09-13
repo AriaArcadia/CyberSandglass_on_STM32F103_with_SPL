@@ -17,7 +17,7 @@ A combination of porting and new-developed elements to the realization of CyberS
 ### 开发板
 * 普中科技HC6800-EM3 V3.0。非必要，但是在开发过程中起到了很大的作用
 ### 外设
-* LED阵列，任意一家的可用的MAX7219芯片驱动的2片8\*8阵列（共阴），或者2片16\*16阵列（<font color="red">注意</font>除非你掌握了基本的1焊接和跳线技能，否则不要尝试用四片8*8焊接）。供电电压3.3V即可
+* LED阵列，任意一家的可用的MAX7219芯片驱动的2片8\*8阵列（共阴），或者2片16\*16阵列（<font color="red">**注意**</font>除非你掌握了基本的1焊接和跳线技能，否则不要尝试用四片8*8焊接）。供电电压3.3V即可
 * 蓝牙模块：封装了HC-05的ZS-040模块，注意与核心板共地，供电电压3.3-5V。
 * MPU：封装了MPU6050的模块，供电电压5V。
 * 按键：任意按键
@@ -27,6 +27,7 @@ A combination of porting and new-developed elements to the realization of CyberS
 * 外部电源连接核心板5V端口供电
 ### 外壳及用作支撑的PCB
 * STL+DWG，注意尺寸
+* PCB IcEDA嘉立创平台（因为赶时间所以价格有点贵，不过仍然没有及时送达）
 
 ## 软件 (SOFTWARE)
 ### SPL库
